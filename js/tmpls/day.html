@@ -1,0 +1,10 @@
+<div class="cal-day-box">
+	<ul>
+		<% _.each(events, function(event){ %>
+			<li class="clearfix">
+				<span class="pull-left event <%= event.class %>"></span>&nbsp;
+				<a href="<%= event.url %>" data-event-id="<%= event.id %>" class="pull-left cal-event-day event<%= event.id %>"><%= event.title %></a>
+			</li>
+		<% }) %>
+	</ul>
+</div>

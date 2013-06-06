@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<schema version="0.3">
+    <table name="btBootstrapCalendar">
+        <field name="bID" type="I">
+            <key ></key>
+            <unsigned ></unsigned>
+        </field>
+        <field name="name" type="C" size="50" />
+        <!--<field name="templateID" type="I" />
+        <field name="recordID" type="I" />-->
+    </table>
+</schema>

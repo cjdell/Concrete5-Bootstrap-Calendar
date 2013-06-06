@@ -1,0 +1,36 @@
+.bootstrap-calendar-block {
+	padding: 20px 0;
+    border-bottom: solid 1px #000;
+}
+.bootstrap-calendar-block > h1 {
+    margin: 0 0 20px 0 !important;
+	text-align: center;
+}
+.bootstrap-calendar-block .bootstrap-calendar-toolbar {
+	margin: 0 0 20px 0;
+}
+.bootstrap-calendar-block .cal-span1 {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+	.bootstrap-calendar-block {
+		padding: 10px 0;
+	}
+
+	.bootstrap-calendar-toolbar .pull-left,
+	.bootstrap-calendar-toolbar .pull-right	{
+		float: none;
+		margin: 10px auto !important;
+		text-align: center;
+		display: block;
+	}
+}
+
+/* Landscape phones and down */
+@media (max-width: 480px) {
+	
+}
